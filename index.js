@@ -4,9 +4,9 @@ let cena = "";
 
 if (objednavka < 50) {
   cena = 300 * objednavka
-} else if (objednavka >= 50) {
+} else if (objednavka === 50 && objednavka <= 200) {
   cena = 250 * objednavka
-} else if (objednavka < 200) {
+} else if (objednavka > 200) {
   cena = 200 * objednavka
 } else if (objednavka > 500) {
   cena = 150 * objednavka
