@@ -1,0 +1,2 @@
+# mnozstevni-slevy
+Cvičení: Podmínky
